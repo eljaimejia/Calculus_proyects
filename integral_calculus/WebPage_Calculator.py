@@ -10,7 +10,7 @@ st.set_page_config(page_title="Cálculo Diferencial MAC", layout="wide")
 with st.sidebar:
     # Ajustamos la ruta para que busque el logo en la misma carpeta del script
     try:
-        st.image("logo_umng.png", width=120)
+        st.image("LOGO_UMNG.png", width=120)
     except:
         st.write("Logo UMNG")
     
