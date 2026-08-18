@@ -10,11 +10,11 @@ st.set_page_config(page_title="Cálculo Diferencial MAC", layout="wide")
 with st.sidebar:
     # Ajustamos la ruta para que busque el logo en la misma carpeta del script
     try:
-        st.image("LOGO_UMNG.png", width=120)
+        st.image("https://upload.wikimedia.org/wikipedia/commons/e/ed/Escudo_Universidad_Militar_Nueva_Granada.svg?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=original", width=120)
     except:
         st.write("Logo UMNG")
     
-    st.title("Cálculo Diferencial MAC 📐")
+    st.title("Cálculo Integral MAC 📐")
     st.markdown("---")
     st.subheader("Creadores:")
     st.write("• Kevin Wilder Cardozo Vivas")
